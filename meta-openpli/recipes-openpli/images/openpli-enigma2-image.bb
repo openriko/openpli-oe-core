@@ -35,6 +35,7 @@ ENIGMA2_PLUGINS += " \
 	enigma2-plugin-systemplugins-satfinder \
 	enigma2-plugin-systemplugins-videomode \
 	enigma2-plugin-systemplugins-videotune \
+    enigma2-plugin-systemplugins-wirelesslan \
 	enigma2-plugin-systemplugins-osdpositionsetup \
 	\
 	${@bb.utils.contains("MACHINE_FEATURES", "3dtv", "enigma2-plugin-systemplugins-osd3dsetup" , "", d)} \
